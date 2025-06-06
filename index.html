@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>курс по компьютерной сборке</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+   <header class="header bg-no-repeat bg-center bg-cover left-0 right-0 h-lvh mb-0 py-5"  
+    style="background-image: url(images/top_bg.png); ">
+            <div class="inner flex justify-between pl-20 pr-20 pt-3 text-center max-2xl:px-7">
+                 <a href="#" class="logo-link hover:scale-110  transition duration-500 ease-in-out">
+                    <img src="images/logo.svg" alt="">
+                </a>
+                <button class=" space-y-2 rounded-full z-[1] p-2 shadow lg:hidden" id="burgerBtn">
+                    <span class="block h-0.5 w-8  bg-gray-100"></span>
+                    <span class="block h-0.5 w-8  bg-gray-100"></span>
+                    <span class="block h-0.5 w-8  bg-gray-100"></span>
+                </button>
+
+                 <div id="mobMenu" class="hidden absolute bg-stone-950 rounded-b-lg  top-20 z-[1]
+                 right-5 ">
+                    <ul class="text-white text-2xl flex gap-5 flex-col py-8 pl-10 pr-5 text-end">
+                        <li><a href="#" class="hover:bg-gray-300 hover:text-black rounded-lg p-2"><button>Главная</button></a></li>
+                        <li> <a href="#cources" class="hover:bg-gray-300 hover:text-black rounded-lg p-2"><button>Курсы</button></a></li>
+                        <li> <a href="#schedule" class="hover:bg-gray-300 hover:text-black rounded-lg p-2"><button>Расписание</button></a></li>
+                        <li> <a href="#teachers" class="hover:bg-gray-300 hover:text-black rounded-lg p-2"><button>Преподаватели</button></a></li>
+                        <li><a href="#sending" class="hover:bg-gray-300 hover:text-black rounded-lg p-2"><button>Рассылки</button></a> </li>
+                        <li>  <a href="#contacts" class="hover:bg-gray-300 hover:text-black rounded-lg p-2"><button>Контакты</button></a></li>
+                    </ul>
+                    
+                </div>
+
+
+               <nav class="nav align-bottom text-center max-lg:hidden">
+                    <ul class="nav-list flex justify-between gap-10 items-center content-center max-xl:gap-6 max-[1062px]:text-sm">
+                        <li class="nav-item py-2 px-3.5 rounded-full transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-110  hover:bg-white hover:text-black"><a href="#" class="nav-link ">Главная</a></li>
+                        <li class="nav-item py-2 px-3.5 rounded-full transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-110  hover:bg-white hover:text-black" ><a href="#cources" class="nav-link ">Курсы</a></li>
+                        <li class="nav-item py-2 px-3.5 rounded-full transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-110  hover:bg-white hover:text-black"><a href="#schedule" class="nav-link">Расписание</a></li>
+                        <li class="nav-item py-2 px-3.5 rounded-full transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-110  hover:bg-white hover:text-black"><a href="#teachers" class="nav-link">Преподаватели</a></li>
+                        <li class="nav-item py-2 px-3.5 rounded-full transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-110  hover:bg-white hover:text-black"><a href="#sending" class="nav-link">Рассылка</a></li>
+                        <li class="nav-item py-2 px-3.5 rounded-full transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-110  hover:bg-white hover:text-black"><a href="#contacts" class="nav-link">Контакты</a></li>
+                        <li class="hover:scale-110  transition-all duration-300 ease-in-out hover:bg-linear-0 hover:-translate-y-1 ">
+                            <a href="#" class="link-enter px-7 py-2.5 rounded-full ">Зайти в кабинет</a>
+                        </li>
+                    </ul>
+                    
+                </nav> 
+            </div>
+            <div class="container hero max_disp_laptop_width1">
+                <h1 class="top__title mb-12 mt-40 max-sm:mt-20">Первый курс 
+                    по компьютерной сборке</h1>
+                    <div class="static">
+                        <ul class="static__list flex gap-7 max-sm:grid max-[484px]:items-center    min-[485px]:grid-cols-4 max-[484px]:grid-cols-2 ">
+                            <li class="static__item max-sm:px-2 max-sm:py-4 max-sm:w-[101px] "><p>18</p>
+                                <p class="text-base opacity-40"> 
+                                    Дней
+                                </p>
+                        </li>
+                            <li class="static__item max-sm:px-4 max-sm:py-4 max-sm:w-[101px]">
+                                <p>18</p>
+                                <p class="text-base opacity-40 p-0">
+                                    Часов
+                                </p>
+                            </li>
+                            <li class="static__item max-sm:px-4 max-sm:py-4 max-sm:w-[101px]"><p>18</p>
+                                <p class="text-base opacity-40">
+                                    Минут
+                                </p>
+                            </li>
+                            <li class="static__item max-sm:px-4 max-sm:py-4 max-sm:w-[101px]"><p>18</p>
+                                <p class="text-base opacity-40">
+                                    Секунд
+                            </p>
+                            </li>
+                        </ul>
+                    </div>
+                
+        </div>  
+
+    </header> 
+      <main class="main">
+        <div class="info pt-8 pb-7 mb-42" >
+                <div class="max_disp_laptop_width_info">
+                    <div class="container  flex justify-between items-center gap-20 max-lg:flex-col max-lg:gap-7 ">
+                        <a href="#" class="btn px-7 py-2.5 rounded-full hover:scale-110  transition duration-500 ease-in-out cursor-pointer no_wr_my_forbtn">Заказать курс</a>
+                    <div class="info__text flex justify-center gap-7">
+                        <div class="text">
+                            <p class="opacity-40">Учеников всего:</p>
+                        <p class="opacity-40">Успешно закончили курс:</p>
+                        </div>
+                        <div class="digitals">
+                            <p>190</p>
+                            <p>200</p>
+                        </div>
+                    </div> 
+                    <div class="info__static">
+                        <div class="static__text flex gap-7 mb-2">
+                            <p class="opacity-40">Заработано учениками:</p>
+                            <p>400 000₽</p>
+                        </div>
+                        <img src="images/info-line.png" alt="">
+                        <div class="static__line flex justify-between">
+                            <p class="opacity-40">0</p>
+                            <p class="opacity-40"> 1 000 000₽</p> 
+                        </div>   
+                </div>   
+            </div> 
+            
+        </div>
+           </div>
+        <section class="about mb-50 max_disp_laptop_width1">
+            <div class="container">
+                <div class="about__inner flex justify-between gap-34 max-lg:flex-col max-lg:items-center max-lg:gap-2.5">
+                     <img src="images/about__img.png" alt="">
+                     <div class="about__text mt-17">
+                        <h2 class="sub__title mb-11 max-sm:text-4xl">
+                        Чем мы занимаемся?
+                    </h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget neque, dignissim et feugiat elit augue in suspendisse egestas. Dictum vestibulum mi et sed nunc, orci fermentum vestibulum, morbi. Et neque, adipiscing sapien sem senectus praesent aenean consequat. Aenean facilisi turpis aliquet fringilla. Nunc sem felis sed interdum feugiat mattis elit, sollicitudin. Quam pharetra rhoncus risus, cursus id elementum aliquet. Nullam turpis arcu malesuada arcu interdum placerat nisi, lobortis. </p>
+                    </div>
+                    
+                   
+
+                </div>
+            </div>
+        </section>
+        <section class="start mb-50 max_disp_laptop_width1" id="cources">
+            <div class="container">
+                <div class="title mb-20">
+                    <div class="start__title-main flex gap-5 items-center mb-12">
+                        <img src="images/icon-heading.svg" alt="">
+                    <h2 class="sub__title max-sm:text-4xl">
+                    Быстрый старт
+                </h2>
+                    </div>
+                    <p class="opacity-50">Больше 90% учеников прошли полный курс и смогли <br>
+                        собрать свой первый компьютер</p>
+                </div>
+                <ul class="start__infografic flex flex-col max-lg:flex-row max-md:px-5 max-md:text-base max-lg:gap-4 ">
+                     <li class="infog-item per flex items-start justify-between mb-5 max-lg:flex-col max-sm::text-xs max-lg:justify-around">
+                        <div class="text-start lg:w-[300px]"><b>100%</b></div>
+                        
+                        <div class="text-start lg:w-[300px]"><b>75%</b></div>
+                        <div class="text-start lg:w-[300px]"><b>50%</b></div>
+                        <div class="text-start lg:w-[300px]"> <b>Итог</b></div>
+                        
+                       
+                    </li>
+                    <li class="infog-item mb-9 max-md:w-[30px] max-md:h-[500px] text-center flex items-center max-md:relative max-md:overflow-hidden">
+                        <img class="max-lg:rotate-90 max-md:w-full max-md:h-580px]  max-md:relative max-md:object-fill max-lg:hidden" src="images/Group 16.png" alt="">
+                        <img src="images/shkala.png" class="lg:hidden max-lg:h-[840px] max-md:object-fill max-md:w-full max-sm:hidden">
+                        
+                    </li>
+                    <li class="infog-item opacity-50 grid grid-cols-4 gap-2.5 max-lg:flex max-lg:flex-col max-lg:justify-around max-lg:pl-2.5 max-md:gap-9 max-md:justify-evenly">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="advantages mb-50 max_disp_laptop_width1">
+            <div class="container">
+                <div class="advantages__inner">
+                    <h2 class="sub__title text-center mb-30">Получите профессию прямо сейчас</h2>
+                    <ul class="advantages__list flex items-center gap-20 max-lg:flex-col max-lg:items-center">
+                        <li class="advantages__item items-center text-center">
+                            <img src="images/advantages-1.svg" alt=""><b >Только практические <br> навыки в работе</b>
+                            <p class="opacity-80 mt-7 max-lg:max-w-3xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.</p>
+                        </li>
+                        <li class="advantages__item text-center">
+                            <img src="images/advantages-2.svg" alt=""><b>Работа на самом <br>
+                                современном оборудовании</b>
+                            <p class="opacity-80 mt-7 max-lg:max-w-3xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.</p>
+                        </li>
+                        <li class="advantages__item text-center">
+                            <img src="images/advantages-3.svg" alt=""><b>Сертификация
+                                <br> по окончании обучения</b>
+                            <p class="opacity-80 mt-7 max-lg:max-w-3xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="partners mb-50 max_disp_laptop_width1">
+            <div class="container">
+                <div class="partners__inner ">
+                    <div class="sub__title flex gap-5 items-center mb-15">
+                        <img src="images/icon-heading-2.svg" alt="">
+                        <h2 class="max-sm:text-4xl">Партнеры - топовые бренды</h2>
+                    </div>
+                    <ul class="partners__logos grid grid-cols-4  divide-x divide-y border border-black not-last:divide-solid divide-gray-500 max-md:grid-cols-2">
+                        <li class=" flex items-center justify-center p-8""><img src="images/partners-logo.svg"  alt=""></li>
+                        <li class=" flex items-center justify-center p-8 max-md:border-r-0"><img src="images/partners-logo.svg"  alt=""></li>
+                        <li class=" flex items-center justify-center p-8"><img src="images/partners-logo.svg"  alt=""></li>
+                        <li class=" flex items-center justify-center p-8 border-r-0"><img src="images/partners-logo.svg"  alt=""></li>
+                        <li class=" flex items-center justify-center p-8 border-b-0 max-md:border-b-1"><img src="images/partners-logo.svg"  alt=""></li>
+                        <li class=" flex items-center justify-center p-8 border-b-0 max-md:border-r-0 max-md:border-b-1"><img src="images/partners-logo.svg"  alt=""></li>
+                        <li class=" flex items-center justify-center p-8 border-b-0"><img src="images/partners-logo.svg"  alt=""></li>
+                        <li class=" flex items-center justify-center p-8 border-b-0"><img src="images/partners-logo.svg"  alt=""></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="program mb-42 text-center max_disp_laptop_width1" id="schedule">
+            <div class="container">
+                <div class="sub__title mb-20 max-sm:text-4xl">
+                    <div class="text-center mx-auto my-0 max-w-25">
+                        <img class=" w-full" src="images/icon-heading-5.svg" alt="">
+                    </div>
+                    
+                    <h2>Программа обучения</h2>
+                    <p class="opacity-50 text-base">Больше 90% учеников прошли полный курс и смогли собрать свой первый компьютер</p>
+                </div>
+                <div class="program__grafh flex justify-center gap-1.5">
+                     <ul class="program__week">
+                    <li class="weeks mt-8 text-end mb-3.5" >
+                        <p class="mb-3.5 opacity-40 text-sm">Неделя №1</p>
+                        <p class="text-lg">Красивая часть курса,<br>
+                            которая помогает в успехе</p>
+                    </li>
+                    <li class="weeks mt-26 text-end mb-3.5" >
+                        <p class="mb-3.5 opacity-40 text-sm">Неделя №3</p>
+                        <p class="text-lg">Красивая часть курса,<br>
+                            которая помогает в успехе</p>
+                    </li>
+                   
+                    <li class="weeks mt-24 text-end mb-3.5" >
+                        <p class="mb-3.5 opacity-40 text-sm">Неделя №5</p>
+                        <p class="text-lg">Красивая часть курса,<br>
+                            которая помогает в успехе</p>
+                    </li>
+                   
+                    <li class="weeks mt-24 text-end mb-3.5" >
+                        <p class="mb-3.5 opacity-40 text-sm">Неделя №7</p>
+                        <p class="text-lg">Красивая часть курса,<br>
+                            которая помогает в успехе</p>
+                    </li>
+                   
+                </ul>
+                
+                <div class="program__img text-center">
+                    <img class="max-lg:w-full max-lg:h-full" src="images/program-line.png" alt="">
+                </div>
+               <ul class="program__week">
+                <li class="weeks mt-24 text-start mb-3.5" >
+                    <p class="mb-3.5 opacity-40 text-sm">Неделя №2</p>
+                    <p class="text-lg">Красивая часть курса,<br>
+                        которая помогает в успехе</p>
+                </li>
+                <li class="weeks mt-24 text-start mb-3.5" >
+                    <p class="mb-3.5 opacity-40 text-sm">Неделя №4</p>
+                    <p class="text-lg">Красивая часть курса,<br>
+                        которая помогает в успехе</p>
+                </li>
+                <li class="weeks mt-24 text-start mb-3.5" >
+                    <p class="mb-3.5 opacity-40 text-sm">Неделя №6</p>
+                    <p class="text-lg">Красивая часть курса,<br>
+                        которая помогает в успехе</p>
+                </li>
+                    
+                </ul> 
+                </div>
+               
+            </div>
+        </section>
+
+        <section class="teachers mb-50 gap-28 max_disp_laptop_width1" id="teachers">
+            <div class="container">
+                <div class="sub__title flex items-center mb-11 max-sm:text-4xl max-sm:flex-col">
+                <img  src="images/icon-heading-3.svg" alt="">
+                <h2 class="max-sm:text-center">Ваши преподаватели</h2>
+            </div>
+            <ul class="teachers__list flex justify-between gap-6 max-md:flex-col max-md:gap-25 ">
+                <li class="teachers__item text-center items-center max-md:flex max-md:flex-col">
+                    <div class="max-md:w-78 max-md:h-78 max-md:items-center text-center flex"> <img class="rounded-full " src="images/teacher-1.png" alt=""></div>
+                   
+                    <b>Дмитрий Иванов</b>
+                    <p class="opacity-80">Специалист по видеокартам</p>
+                    <a href="" class="bio rounded-full transition delay-150 duration-300 ease-in-out hover:bg-white hover:text-black">Биография</a>
+                </li>
+                <li class="teachers__item text-center max-md:flex max-md:flex-col  items-center">
+                    <div class="max-md:w-78 max-md:h-78 max-md:items-center text-center flex">
+                    <img class="rounded-full " src="images/teacher-2.png" alt="">
+                </div>
+                    
+                    <b>Дмитрий Иванов</b>
+                    <p class="opacity-80">Специалист по видеокартам</p>
+                    <a href="" class="bio rounded-full transition delay-150 duration-300 ease-in-out hover:bg-white hover:text-black">Биография</a>
+                </li>
+                <li class="teachers__item text-center max-md:flex max-md:flex-col  items-center">
+                    <div class="max-md:w-78 max-md:h-78 max-md:items-center text-center flex">
+                    <img src="images/teacher-3.png" alt="">
+                    </div>
+                    <b>Дмитрий Иванов</b>
+                    <p class="opacity-80" >Специалист по видеокартам</p>
+                    <a href="" class="bio rounded-full transition delay-150 duration-300 ease-in-out hover:bg-white hover:text-black">Биография</a>
+                </li>
+            </ul>
+            </div>
+           
+        </section>
+
+      </main>
+      <footer class="pb-28" id="sending">
+        <div class="container">
+            <h2 class="sub__title text-center mb-7 max-sm:text-4xl">
+            Статьи каждую неделю
+        </h2>
+        <p class="text-center opacity-50 mb-15">
+            Больше 90% учеников прошли полный курс и смогли <br>собрать свой первый компьютер
+        </p>
+        <div class="form mb-10  flex justify-center ">
+        <form action="#" class="w-full lg:w-1/2 max-w-[500px]">
+                <div class="flex rounded-full bg-white/40 pl-5 text-4xl lg:justify-between h-11  items-center">
+                    <input type="email" name="user_email" id="user_email" placeholder="E-mail" required class="bg-transparent outline-none p-5 w-full text-sm">
+                    <input type="submit" value="Подписаться" class="btn rounded-full px-7 py-2.5 bg-gradient-to-r from-vioredBtn-0 to-vioredBtn-1 hover:bg-gradient-to-l text-base transition-transform  duration-500 ease-in-out cursor-pointer ">
+                </div>
+            </form>
+        </div>
+        <div id="contacts">
+            <ul class="social-media flex justify-center gap-7">
+            <li class="transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"><a href="#"><img src="images/vk.svg" alt=""></a></li>
+            <li class="transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"><a href="#"><img src="images/youtube.svg" alt=""></a></li>
+            <li class="transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"><a href="#"><img src="images/facebook.svg" alt=""></a></li>
+            <li class="transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"><a href="#"><img src="images/inst.svg" alt=""></a></li>
+        </ul>
+        </div>
+        
+
+        </div>
+      </footer>
+      <script src="main.js"></script>
+</body>
+</html>
