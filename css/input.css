@@ -1,0 +1,154 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-style: normal;
+    src: url(/fonts/Roboto-Medium.woff2) format('woff2');
+    src: url(/fonts/Roboto-Medium.woff) format('woff');
+    
+  }
+
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-style: normal;
+    src: url(/fonts/Roboto-Bold.woff2) format('woff2');
+    src: url(/fonts/Roboto-Bold.woff) format('woff');
+    
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: normal;
+    src: url(/fonts/Roboto-Regular.woff2) format('woff2');
+    src: url(/fonts/Roboto-Regular.woff) format('woff');
+}
+
+body{
+    font-family: 'Roboto';
+    font-weight: 400;
+    background: #000000;
+    color: #FFFFFF;
+    font-size: 16px;
+    height: 100vh;
+}
+
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 15px;
+    align-items: center;
+}
+
+.link-enter{
+    background: linear-gradient(180deg,#C89AFC 0%, #7C6AFA 100%);
+}
+
+.link-enter:hover{
+    background: linear-gradient(180deg,#815beb 0%, #815beb 100%);
+}
+
+.top__title{
+    font-size: 64px;
+    font-weight: 700;
+    max-width: 920px;
+}
+
+.sub__title{
+    font-size: 48px;
+    font-weight: 700;
+}
+.static__item{
+    padding: 20px 30px;
+    text-align: center;
+    background-color: #121212;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+
+.advantages__item img{
+    margin: 0 auto 60px;
+}
+
+.advantages__item b{
+    font-weight: 500;
+    font-size: 24px;
+
+}
+
+.btn{
+    background: linear-gradient(180deg,#DF5950 0%, #451046 100%);
+    padding: 10px 20px;
+}
+
+.btn:hover{
+    background: linear-gradient(180deg,#ea6056 0%, rgb(108, 26, 109) 100%);
+    padding: 10px 20px;
+}
+.info{
+    background-color: #121212;
+
+}
+
+.per{
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.teachers__item img{
+    margin-bottom: 40px;
+    display:block;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.teachers__item b{
+    margin-bottom: 15px;
+}
+
+.teachers__item p{
+    margin-bottom: 30px;
+}
+
+.bio{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    
+}
+
+@media (max-width: 630px){
+    .top__title{
+
+        font-size: 48px;
+    }
+    .static__item{
+        padding: 15px 15px;
+        font-size: 30px;
+    }
+}
+
+
+@media (max-width: 510px){
+    .sub__title{
+        font-size: 38px;
+    }
+    .static__item{
+        padding: 15px 20px;
+        font-size: 24px;
+    }
+    .container{
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 383px){
+    .top__title{
+        font-size: 30px;
+    }
+   
+}
+ 
